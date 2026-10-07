@@ -1,0 +1,10 @@
+# DuckDB
+*.db
+*.duckdb
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
