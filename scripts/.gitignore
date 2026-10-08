@@ -1,10 +1,48 @@
-# DuckDB
+# ==============================
+# DuckDB / Bancos locais
+# ==============================
 *.db
 *.duckdb
+*.sqlite
+*.sqlite3
 
+# ==============================
 # Python
+# ==============================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Jupyter
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
 .ipynb_checkpoints/
+
+# ==============================
+# Arquivos do sistema operacional
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDEs / Editores
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Arquivos temporários
+# ==============================
+*.tmp
+*.temp
